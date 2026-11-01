@@ -3,11 +3,8 @@
 from __future__ import annotations
 
 import datetime as _dt
-import warnings as _warnings
 
-with _warnings.catch_warnings():
-    _warnings.simplefilter("ignore", DeprecationWarning)
-    from hijri_converter import Gregorian, Hijri
+from hijridate import Gregorian, Hijri
 
 __all__ = ["to_hijri", "to_gregorian", "today_hijri", "format_hijri", "ARABIC_MONTHS"]
 __version__ = "0.1.0"

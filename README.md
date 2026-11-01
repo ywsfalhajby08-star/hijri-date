@@ -4,7 +4,7 @@
 
 ## بالعربية
 
-أداة Python بسيطة لتحويل التاريخ بين **التقويم الهجري (أم القرى)** و**التقويم الميلادي**، مبنية على مكتبة [hijri-converter](https://pypi.org/project/hijri-converter/).
+أداة Python بسيطة لتحويل التاريخ بين **التقويم الهجري (أم القرى)** و**التقويم الميلادي**، مبنية على مكتبة [hijridate](https://pypi.org/project/hijridate/).
 
 ### التثبيت
 
@@ -69,7 +69,7 @@ MIT © ywsfalhajby08-star
 
 ## English
 
-A small Python tool to convert dates between the **Hijri (Umm al-Qura)** and **Gregorian** calendars, built on [hijri-converter](https://pypi.org/project/hijri-converter/).
+A small Python tool to convert dates between the **Hijri (Umm al-Qura)** and **Gregorian** calendars, built on [hijridate](https://pypi.org/project/hijridate/).
 
 ### Install
 
@@ -94,7 +94,7 @@ hijri-date --reverse 1448-05-22  # 2026-11-02
 | `today_hijri()` | Today's Hijri `(year, month, day)` |
 | `format_hijri(year, month, day)` | Hijri date with the Arabic month name |
 
-Supported range is the Umm al-Qura range of `hijri-converter`: 1343–1500 AH (1924–2077 CE).
+Supported range is the Umm al-Qura range of `hijridate`: 1343–1500 AH (1924–2077 CE).
 
 ### Web page
 

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [{ name = "ywsfalhajby08-star" }]
-dependencies = ["hijri-converter>=2.3"]
+dependencies = ["hijridate>=2.3"]
 keywords = ["hijri", "islamic", "calendar", "umm-al-qura", "gregorian"]
 classifiers = [
     "Programming Language :: Python :: 3",
