@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hijri-date"
+version = "0.1.0"
+description = "Convert dates between the Hijri (Umm al-Qura) and Gregorian calendars"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "ywsfalhajby08-star" }]
+dependencies = ["hijri-converter>=2.3"]
+keywords = ["hijri", "islamic", "calendar", "umm-al-qura", "gregorian"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Arabic",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+hijri-date = "hijri_date.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ywsfalhajby08-star/hijri-date"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
